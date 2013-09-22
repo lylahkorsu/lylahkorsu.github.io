@@ -12,7 +12,14 @@ font-family: 'Six Caps', sans-serif;
 font-family: 'Miniver', cursive;
 
 */
+a {
+	color: #1e1e1e;
+}
 
+a:hover {
+	color: #777777;;
+	text-decoration: none;
+}
 
 body {
 	background-color: #f6f6f6;
@@ -31,7 +38,7 @@ body {
 }
 
 #top-nav {
-	width: 500px;
+	width: 600px;
 	margin: 0 auto;
 	background-color: #f6f6f6;
 	font-size: 1.25em;
@@ -50,8 +57,52 @@ body {
 #linkedin {
 	height: 44px;
 	width: 46px;
-	background-image: url('images/linkedin.png');
 }
 
+#bio-page {
+	text-align: center;
+}
 
+#bio-image {
+	margin: 50px 0 25px 0;
+}
 
+#writing-content {
+	margin: 20px 0 50px 0;
+}
+
+#nylon-mags div {
+	display: inline-block;
+}
+
+#writing-footer {
+	margin-top: 200px;
+	font-size: 0.75em;
+}
+
+#include-footer {
+	margin-top: 500px;
+	text-align: center;
+}
+
+#screenwriting-content {
+	margin-top: 25px;
+}
+
+#screenwriting-images {
+	text-align: center;
+}
+
+#screenwriting-images a {
+	display: block;
+}
+
+#nikko-cover {
+	margin-top: 50px;
+	border: 1px solid black;
+}
+
+#contact-content {
+	margin-top: 50px;
+	font-size: 1em;
+}
