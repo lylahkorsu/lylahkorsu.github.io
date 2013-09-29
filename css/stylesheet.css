@@ -105,6 +105,10 @@ body {
 	font-size: 1em;
 }
 
+#portfolio-content {
+	margin-top: 50px;
+}
+
 .superscript {
 	font-size: 0.5em;
 	vertical-align: super;
